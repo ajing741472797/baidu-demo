@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>百度一下，你就知道</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <script src="//at.alicdn.com/t/font_939672_t3csxlocav.js"></script>
+</head>
+
+<body>
+    <div class="xxx">
+        <a href="https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_Pclogo_6ysd4c7a&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pc">
+        <img src="./bd_logo.png" alt=""></a>
+    </div>
+    <div class="wrapper">
+        <span class="inputWrapper">
+            <input id="keyword" type="text" autocomplete="off"><!--autocomplete="off",关闭浏览器自动补全-->
+
+            <span class="floatDiv">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-voice"></use>
+                </svg>
+                <span class="splitLine"></span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-camera"></use>
+                </svg>
+            </span>
+
+        </span>
+
+
+        <button>百度一下</button>
+        <ul id="suggestion" class="suggestion">
+            <li>选项1</li>
+            <li>选项2</li>
+            <li>选项3</li>
+            <li>选项4</li>
+        </ul>
+    </div>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
